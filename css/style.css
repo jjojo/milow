@@ -1,0 +1,167 @@
+/* 1 VARIABLE DEFINITIONS */
+/* 1.1 FONT */
+/* 1.2 COLOR */
+/* BLACK, WHITE, GREY */
+/* BASIC COLORS */
+/* 2 HTML TAGS */
+/* 2.1 <a></a> */
+/* 2.2 <body></body> */
+body {
+  background-color: #fefefe;
+}
+/* 2.x Headings */
+/* 2.x.1 <h1></h1> */
+h1 {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 5em;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding: 0.2em;
+}
+/* 2.x.2 <h2></h2> */
+h2 {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 3.8em;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding: 0.2em;
+}
+/* 2.x.3 <h3></h3> */
+h3 {
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.1em;
+  color: #a94442;
+  margin-top: 0;
+}
+/* 2.x <html></html> */
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+/* 2.x <p></p> */
+p {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 100;
+  letter-spacing: 0.1px;
+}
+/* 3 MAIN STYLE */
+header {
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+.menu {
+  list-style-type: none;
+  padding: 0;
+  border-bottom: solid 1px #ccc;
+}
+.menu li {
+  float: left;
+  padding: 0.5em;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  text-align: center;
+}
+.menu li a {
+  color: #000;
+}
+.main {
+  background-color: #fefefe;
+}
+footer {
+  min-height: 10em;
+  padding: 0;
+  margin: 10em 0 0 0;
+  background-color: #333;
+}
+footer p {
+  color: #fff;
+  margin: 20px 0px;
+}
+footer p:nth-child(1) {
+  text-align: left;
+}
+footer p:nth-child(2) {
+  text-align: center;
+}
+footer p:nth-child(3) {
+  text-align: right;
+}
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+.welcome-text:before {
+  margin-bottom: 5%;
+  content: " ";
+  border-bottom: solid 2px #777;
+}
+.welcome-text {
+  padding-bottom: 5%;
+  border-bottom: solid 2px #000;
+}
+.instagram-content {
+  margin-top: 2%;
+}
+.instagram-media {
+  padding: 10px;
+}
+/* 4 MOBILE */
+/* Bootstrap 5 columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+#mobile-apology {
+  margin-top: 75%;
+}
+.keys {
+  margin-top: 25%;
+}
+.keys svg {
+  width: 100%;
+}
+.key-color {
+  fill: none;
+}
+.green {
+  fill: #51cb20;
+}

@@ -1,0 +1,36 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="232.833px" height="154.01px" viewBox="0 0 232.833 154.01" enable-background="new 0 0 232.833 154.01"
+	 xml:space="preserve">
+<g>
+	<path ng-class="keyLeftColor" id="path602" fill="none" stroke="#010101" stroke-width="2" stroke-linejoin="round" d="M6.213,80.013h62.564
+		c2.88,0,5.216,2.336,5.216,5.217v62.564c0,2.881-2.336,5.217-5.216,5.217H6.213c-2.88,0-5.213-2.336-5.213-5.217V85.229
+		C1,82.349,3.333,80.013,6.213,80.013"/>
+	<path ng-class="keyDownColor" id="path604" fill="none" stroke="#010101" stroke-width="2" stroke-linejoin="round" d="M85.343,80.013h62.564
+		c2.88,0,5.216,2.336,5.216,5.217v62.564c0,2.881-2.336,5.217-5.216,5.217H85.343c-2.88,0-5.216-2.336-5.216-5.217V85.229
+		C80.127,82.349,82.463,80.013,85.343,80.013"/>
+	<path ng-class="keyRightColor" id="path606" fill="none" stroke="#010101" stroke-width="2" stroke-linejoin="round" d="M164.053,80.013h62.567
+		c2.88,0,5.213,2.336,5.213,5.217v62.564c0,2.881-2.333,5.217-5.213,5.217h-62.567c-2.877,0-5.213-2.336-5.213-5.217V85.229
+		C158.84,82.349,161.176,80.013,164.053,80.013"/>
+	<path ng-class="keyUpColor" id="path608" fill="none" stroke="#010101" stroke-width="2" stroke-linejoin="round" d="M85.343,1h62.564
+		c2.88,0,5.216,2.336,5.216,5.213V68.78c0,2.881-2.336,5.213-5.216,5.213H85.343c-2.88,0-5.216-2.333-5.216-5.213V6.213
+		C80.127,3.336,82.463,1,85.343,1"/>
+	<g id="g1006" transform="translate(-46.132 -134.04)">
+		<path id="path1008" fill="#020202" stroke="#020202" stroke-width="2" stroke-opacity="0.9952" d="M162.826,236.214v18.434"/>
+		<path id="path1010" fill="#010101" d="M155.842,254.627l6.974,10.257l6.908-10.257h-13.868H155.842z"/>
+	</g>
+	<g id="g1012" transform="matrix(-1 0 0 -1 2531.4 925.79)">
+		<path id="path1014" fill="#020202" stroke="#020202" stroke-width="2" stroke-opacity="0.9952" d="M2414.775,870.426v18.434"/>
+		<path id="path1016" fill="#010101" d="M2407.788,888.843l6.974,10.257l6.908-10.257h-13.868H2407.788z"/>
+	</g>
+	<g id="g1018" transform="matrix(.0000038388 -1 1 .0000038388 748.58 1720.8)">
+		<path id="path1020" fill="#020202" stroke="#020202" stroke-width="2" stroke-opacity="0.9952" d="M1604.359-567.592v18.434"/>
+		<path id="path1022" fill="#010101" d="M1597.372-549.179l6.974,10.257l6.908-10.254l-13.868-0.003H1597.372z"/>
+	</g>
+	<g id="g1024" transform="matrix(5.0625e-7 1 -1 5.0625e-7 1736.2 -856.68)">
+		<path id="path1026" fill="#020202" stroke="#020202" stroke-width="2" stroke-opacity="0.9952" d="M973.241,1684.38v18.434"/>
+		<path id="path1028" fill="#010101" d="M966.254,1702.792l6.974,10.257l6.912-10.257h-13.872H966.254z"/>
+	</g>
+	<path id="path1252" fill="#020202" stroke="#020202" stroke-width="2" stroke-opacity="0.9952" d="M116.625,51.835V33.402"/>
+</g>
+</svg>
