@@ -30,18 +30,22 @@ robotApp.controller('HomeCtrl', function ($scope,$routeParams,$document) {
 			    case 38:
 			        $scope.keyUpColor = "green"
 	        		$scope.$apply()
+	        		ws.send('F1')
 			        break;
 			     case 39:
 			        $scope.keyRightColor = "green"
 	        		$scope.$apply()
+	        		ws.send('r1')
 			        break;
 			     case 40:
 			        $scope.keyDownColor = "green"
 	        		$scope.$apply()
+	        		ws.send('R1')
 			        break;
 			     case 37:
 			        $scope.keyLeftColor = "green"
 	        		$scope.$apply()
+	        		ws.send('l1')
 			        break;
 			    default: 
 			       	$scope.keyColor = "none";
@@ -57,18 +61,22 @@ robotApp.controller('HomeCtrl', function ($scope,$routeParams,$document) {
 		    case 38:
 		        $scope.keyUpColor = "none"
         		$scope.$apply()
+        		ws.send('F0')
 		        break;
 		     case 39:
 		        $scope.keyRightColor = "none"
         		$scope.$apply()
+        		ws.send('r0')
 		        break;
 		     case 40:
 		        $scope.keyDownColor = "none"
         		$scope.$apply()
+        		ws.send('R0')
 		        break;
 		     case 37:
 		        $scope.keyLeftColor = "none"
         		$scope.$apply()
+        		ws.send('l0')
 		        break;
 		    default: 
 		       	$scope.keyColor = "none";
