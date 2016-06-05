@@ -1,7 +1,7 @@
 robotApp.controller('HomeCtrl', function ($scope,$routeParams,$document) {
 	// This file has no code yet.
 	//var host = location.origin.replace(/^http/, 'ws')
-    var host 	= "ws://http://46.101.22.6:5000/usr"
+    var host 	= "ws://46.101.22.6:5000/usr"
     var ws 		= new WebSocket(host);
 	var fired 	= false;
 	var sendMsg = function (msg) { ws.send(msg) };
