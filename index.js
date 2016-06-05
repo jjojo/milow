@@ -17,7 +17,7 @@ var auth = function (req, res, next) {
     return unauthorized(res);
   };
 
-  if (user.name === 'milow' && user.pass === 'ss') {
+  if (user.name === 'milow' && user.pass === 'letsgo') {
     return next();
   } else {
     return unauthorized(res);
@@ -28,7 +28,7 @@ var auth = function (req, res, next) {
 var port = process.env.PORT || 5000
 
 app.get('/', auth, function (req, res) {
-  app.use(express.static(__dirname + "/"))
+  app.use(express.static(__dirname + "/public"))
   res.redirect('index.html')
 });
 
