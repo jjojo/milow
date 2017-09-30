@@ -17,7 +17,7 @@ var auth = function (req, res, next) {
     return unauthorized(res);
   };
 
-  if (user.name === 'milow' && user.pass === 'letsgo') {
+  if (user.name === '*not published on github*' && user.pass === '*not published on github*') {
     return next();
   } else {
     return unauthorized(res);
@@ -112,85 +112,3 @@ wss.on("connection", function(ws) {
     console.log(Object.keys(clients).length)
   })
 })
-
-
-
-
-
-
-/*
-webSockets = {} // userID: webSocket
-
-// CONNECT /:userID
-// wscat -c ws://localhost:5000/1
-webSocketServer.on('connection', function (webSocket) {
-  var userID = parseInt(webSocket.upgradeReq.url.substr(1), 10)
-  webSockets[userID] = webSocket
-  console.log('connected: ' + userID + ' in ' + Object.getOwnPropertyNames(webSockets))
-
-  // Forward Message
-  //
-  // Receive               Example
-  // [toUserID, text]      [2, "Hello, World!"]
-  //
-  // Send                  Example
-  // [fromUserID, text]    [1, "Hello, World!"]
-  webSocket.on('message', function(message) {
-    console.log('received from ' + userID + ': ' + message)
-    var messageArray = JSON.parse(message)
-    var toUserWebSocket = webSockets[messageArray[0]]
-    if (toUserWebSocket) {
-      console.log('sent to ' + messageArray[0] + ': ' + JSON.stringify(messageArray))
-      messageArray[0] = userID
-      toUserWebSocket.send(JSON.stringify(messageArray))
-    }
-  })
-
-  webSocket.on('close', function () {
-    delete webSockets[userID]
-    console.log('deleted: ' + userID)
-  })
-})
-
-------------------------------------------------------------
-
-var express = require('express');
-var app = express();
-
-// Authenticator
-app.use(express.basicAuth(function(user, pass) {
- return user === 'testUser' && pass === 'testPass';
-}));
-
-app.get('/home', function(req, res) {
- res.send('Hello World');
-});
-
-app.listen(process.env.PORT || 8080);
-
--
--------------------------------------------------------------
-
-var basicAuth = require('basic-auth');
-
-var auth = function (req, res, next) {
-  function unauthorized(res) {
-    res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
-    return res.send(401);
-  };
-
-  var user = basicAuth(req);
-
-  if (!user || !user.name || !user.pass) {
-    return unauthorized(res);
-  };
-
-  if (user.name === 'foo' && user.pass === 'bar') {
-    return next();
-  } else {
-    return unauthorized(res);
-  };
-};
-
-
-*/
